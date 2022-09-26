@@ -34,19 +34,41 @@ header section{
     justify-content: center;
     
 }
-main section#estande1{
-    margin:20px;
+main{
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
+}
+main h1{
+    margin-top: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+main section{
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
-main section#estande1 img{
+main section p{
+    width: 810px;
+
+}
+main section *{
+    margin: 5px;
+}
+main section img{
+    height: 250px;
     width: 200px;
     
 }
+
+
 footer{
-    position: fixed;
     bottom: 0px;
     background-color: var(--rosa);
     height: 50px;
@@ -55,12 +77,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
-img#insta{
-    width: 25px;
-    border-radius: 50%;
-
-}
-img#twitter{
+footer nav a img{
     width: 25px;
     border-radius: 50%;
 
